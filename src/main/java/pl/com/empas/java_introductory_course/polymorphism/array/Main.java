@@ -23,7 +23,7 @@ public class Main {
             } else if (animal instanceof Cat) {
                 System.out.println("It's cat!");
             } else {
-                System.out.println("I don't know this kind of animal");
+                System.out.println("I don't know this kind of my_package.animal");
             }
         }
     }

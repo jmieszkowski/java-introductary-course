@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Animal animal;
-//        animal = new Animal();
+//        my_package.animal = new Animal();
 
         Mammal mammal;
 //        mammal = new Mammal();

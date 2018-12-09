@@ -26,7 +26,7 @@ public class OrderedListToMapConverter<E> implements ConverterContract<List<E>, 
 
         System.out.println(map.get(2));
         System.out.println(map.get(5));
-        //map returns null for a non existen key value, even if the key object violates key type constraint
+        //map returns null for a non existen key value, even if the key my_package.object violates key type constraint
         System.out.println(map.get("er"));
 
 

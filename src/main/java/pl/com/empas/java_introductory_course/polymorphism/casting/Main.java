@@ -17,7 +17,7 @@ public class Main {
         vehicle.move();
 
         // doesn't work
-//        vehicle.fly();
+//        my_package.package_test.vehicle.fly();
 
         // down-casting
         Aeroplane anotherPlane = (Aeroplane) vehicle;
@@ -26,12 +26,12 @@ public class Main {
         castToAeroplane(vehicle);
 
         // thanks god it doesn't work
-//        String string = (String) vehicle;
+//        String string = (String) my_package.package_test.vehicle;
 
         // but...
         Object object = plane;
         // uncomment it on you own responsibility
-//        castToString(object);
+//        castToString(my_package.object);
 //        castToString(plane);
         saveCastToString(object);
     }

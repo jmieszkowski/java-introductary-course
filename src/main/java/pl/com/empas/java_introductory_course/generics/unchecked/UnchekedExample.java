@@ -31,8 +31,8 @@ public class UnchekedExample {
         //safe method call - this would generate compile error
         //addAllGeneric(listString, listInteger);
         //--------------------------------------------
-        //Runtime ClassCastException - now we have integers and Strings in a collection
-        //Java tries to cast every object in collection to String upon iteration.
+        //Runtime ClassCastException - now we have integers and Strings in a my_package.collection
+        //Java tries to cast every my_package.object in my_package.collection to String upon iteration.
         for(String s : listString) {
             System.out.println(s);
         }

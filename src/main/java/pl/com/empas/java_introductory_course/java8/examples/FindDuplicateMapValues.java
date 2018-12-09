@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class FindDuplicateMapValues {
 
     public static void main(String[] args) {
-        //Collections.frequency(collection, element)
+        //Collections.frequency(my_package.collection, element)
         //Stream<T> .count() :)
         //Znajdź ilość powtarzających się wartości w mapie
 
