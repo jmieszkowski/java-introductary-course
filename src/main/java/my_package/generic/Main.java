@@ -3,6 +3,7 @@ package my_package.generic;
 import my_package.animal.Animal;
 import my_package.animal.Dog;
 import my_package.com.archlinux.jedrek.Person;
+import my_package.generic.method.Box;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,10 @@ public class Main {
         GenericCollections.processAnimals(dogList);
 
         GenericCollections.addDog(dogList);
+
+        Box box = new Box("sad", new Object(), 1,1.0);
+
+        System.out.println(box);
 
 
 
