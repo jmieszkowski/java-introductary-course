@@ -24,9 +24,6 @@ public class HomeworkStreamMain {
 
         drinksWithoutNuts.forEach(drink -> System.out.println(drink));
 
-
-
-
     }
 
     private static List<Drink> getDrinksWithoutNuts(VendingMachine vendingMachine){
@@ -34,8 +31,5 @@ public class HomeworkStreamMain {
         return vendingMachine.getDrink().stream()
                     .filter(drink -> drink.getIngredients().isContainsNuts() == false)
                     .collect(Collectors.toList());
-
-
-
     }
 }
