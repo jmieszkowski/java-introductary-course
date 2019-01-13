@@ -18,7 +18,7 @@ public class RuntimeExceptionMain {
     }
 
     public static void level3() throws MyRuntimeException{
-        throw new MyRuntimeException("My runtime exception error");
+        throw new MyRuntimeException("My runtime exc error");
     }
 
 }

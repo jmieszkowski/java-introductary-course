@@ -28,7 +28,7 @@ public class Main {
         List<Dog> dogList = new ArrayList<>();
         dogList.add(new Dog());
         dogList.add(new Dog());
-        
+
 
         Dog[] dogs = new Dog[2];
         dogs[0] = new Dog();

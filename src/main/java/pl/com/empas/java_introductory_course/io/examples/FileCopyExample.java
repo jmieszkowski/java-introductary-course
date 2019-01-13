@@ -51,7 +51,7 @@ public class FileCopyExample {
     }
 
 
-    //Unchecked exception copy wrapper
+    //Unchecked exc copy wrapper
     //Ponieważ w lambdzie nie możemy użyć metody, która rzuca wyjątek (bez obsłużenia go)
     //opakowujemy
     public static void copy(Path source, Path target) {
