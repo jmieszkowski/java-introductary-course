@@ -2,7 +2,7 @@ package my_package.sorting.sorting_exercise2;
 
 import java.time.LocalDate;
 
-public class Car implements Comparable<Car>{
+public class Car implements Comparable<Car>, CarConcat<Car>{
 
     private String colour;
     private String brand;
@@ -61,5 +61,14 @@ public class Car implements Comparable<Car>{
 
     public void maybeCompare(Comparable<Car> carComparable){
 
+    }
+
+    @Override
+    public void concatTwoBrands(Car car) {
+        System.out.println(car.brand + "-" + brand);
+    }
+
+    public void doSomething(CarConcat<Car> car){
+                car.concatTwoBrands(this);
     }
 }

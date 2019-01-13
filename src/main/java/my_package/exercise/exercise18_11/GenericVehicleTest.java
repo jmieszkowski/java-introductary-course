@@ -1,4 +1,4 @@
-package my_package.exercise18_11;
+package my_package.exercise.exercise18_11;
 
 import my_package.interface_example.Car;
 import my_package.interface_example.Vehicle;

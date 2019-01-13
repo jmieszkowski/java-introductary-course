@@ -1,4 +1,4 @@
-package my_package.exercise18_11;
+package my_package.exercise.exercise18_11;
 
 
 

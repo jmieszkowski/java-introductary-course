@@ -49,11 +49,20 @@ public class sortingExercise2Main {
                 new Car("red", "porshe", "ksd123", LocalDate.of(2019,1,10), 800)
         );
 
+
+        carList.get(2).concatTwoBrands(carList.get(3));
+//        carList.get(2).doSomething(object -> System.out.println(object.getBrand()));
+
+
+
+
+
     }
 
     private static void move(Car car) {
         System.out.println("MOVE");
     }
+
 
 
 }
